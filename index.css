@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+/* Estilos para el header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Estilos para el hero section */
+/* Estilos para el hero section */
+#hero {
+    background-image: url('img/portada.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #11ddc9; /* Cambia este color al que desees */
+}
+
+
+/* Estilos para las secciones de contenido */
+#apuntes, #mis-codigos, #caracteristicas {
+    padding: 50px 0;
+}
+
+.img-container {
+    background-image: url('ruta-de-otra-imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+.texto {
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+}
+
+.color-acento {
+    color: #3498db;
+}
+
+.codigos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.carta {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.carta h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
